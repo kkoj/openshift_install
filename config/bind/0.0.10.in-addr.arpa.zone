@@ -1,0 +1,10 @@
+$TTL 3600	; 1 hour
+@		IN SOA	gateway.example.co.jp. root.example.co.jp. (
+				2020040100 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				604800     ; expire (1 week)
+				1800       ; minimum (30 minutes)
+				)
+			NS	gateway.example.co.jp.
+1			PTR	gateway.

@@ -1,0 +1,10 @@
+yum install bind-chroot
+
+vi /etc/named.conf
+vi /var/named/masters/example.co.jp.zone
+vi /var/named/masters/0.0.10.in-addr.arpa.zone
+
+chown named.named /var/named/masters/*
+service named-chroot start
+chkconfig named-chroot on
+

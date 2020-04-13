@@ -1,0 +1,5 @@
+yum install haproxy
+
+vi /etc/haproxy/haproxy.cfg
+
+service haproxy start
