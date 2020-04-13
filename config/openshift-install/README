@@ -1,0 +1,8 @@
+mkdir ignition
+
+cat pull-secret >> install-config.yaml
+cat id_rsa >> install-config.yaml
+cp install-config.yaml ignition
+
+./openshift-install create ignition-configs --dir=ignition
+
