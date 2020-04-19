@@ -15,7 +15,7 @@ The environment is as follows. Fedora host is not on the hardware certification 
 
 # Install
 
-1) go https:***REMOVED***www.openshift.com/products/container-platform
+1) go https://www.openshift.com/products/container-platform
   "Get started" FREE TRIAL
 
 2) Select "Create your own cluster"
