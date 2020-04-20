@@ -1,5 +1,5 @@
-# OpenShift Install Diet (for v4.3)  
-OpenShiftインストールしたら2kgやせたメモ
+# Openshift インストールして2kg痩せたはなし  
+OpenShift Install Diet (for v4.3)  
 
 This repository is an OpenShift installation configuration example.
 The environment is as follows. Fedora host is not on the hardware certification list for RHCOS as a production environment. Just test for bare metal.  
