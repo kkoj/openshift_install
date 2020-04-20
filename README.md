@@ -1,4 +1,4 @@
-# Openshift インストールして2kg痩せたはなし  
+# OpenShiftインストールして2kg痩せたはなし  
 OpenShift Install Diet (for v4.3)  
 
 This repository is an OpenShift installation configuration example.
