@@ -2,7 +2,7 @@
 OpenShift Install Diet (for v4.3)  
 
 This repository is an OpenShift installation configuration example.
-The environment is as follows. Fedora host is not on the hardware certification list for RHCOS as a production environment. Just test for bare metal.  
+The environment is as follows. Fedora host is not on the hardware certification list for RHCOS as a production environment. Just test for bare metal.In my opinion, without rightway to install it, you will lose your weight.  
 このレポジトリはOpenShiftのインストール設定例です。
 環境は以下の通り。FedoraはRHCOSのHCLにないため正式なサポート対象とはなりません。
 あくまでベアメタル環境の試用目的です。
@@ -24,10 +24,10 @@ The environment is as follows. Fedora host is not on the hardware certification 
 
 2) "Create your own cluster" をクリック
 
-3) "Deploy it in your datacenter"
+3) "Deploy it in your datacenter"  
    "Try it in your IT environment"をクリック
 
-4) Red Hat Accountでログインする(Red Hat Accountがなければ作る)
+4) Red Hat Accountでログインする(Red Hat Accountがなければ作る)  
    "Run on Bare Metal"をクリック
 
 5) マニュアルをざっと読む
@@ -39,7 +39,7 @@ https://access.redhat.com/documentation/ja-jp/openshift_container_platform/4.3/
 
 - アーキテクチャー  
 https://access.redhat.com/documentation/ja-jp/openshift_container_platform/4.3/html-single/architecture/index  
-(半分広告のような記載なので要点がわかりにくい。24時間以内にインストールする必要があることが一番重要な記載。概ね次のマニュアルに重複した記載がある。)
+(冗長すぎて要点がわかりにくい。24時間以内にインストールする必要があることが一番重要な記載。概ね次のマニュアルに重複した記載がある。)
 
 - ベアメタルへのインストール  
 https://access.redhat.com/documentation/ja-jp/openshift_container_platform/4.3/html-single/installing_on_bare_metal/index  
