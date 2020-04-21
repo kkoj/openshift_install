@@ -1,11 +1,10 @@
 # OpenShiftインストールして2kg痩せたはなし  
 OpenShift Install Diet (for v4.3)  
 
-This repository is an OpenShift installation configuration example.
-The environment is as follows. Fedora host is not on the hardware certification list for RHCOS as a production environment. Just test for bare metal.In my opinion, without rightway to install it, you will lose your weight.  
+This repository is an OpenShift installation configuration example.  
+The environment is as follows. Fedora host is not on the hardware certification list for RHCOS as a production environment. Just test for bare metal. In my opinion, without the right way to install it, you will lose your weight.  
 このレポジトリはOpenShiftのインストール設定例です。
-環境は以下の通り。FedoraはRHCOSのHCLにないため正式なサポート対象とはなりません。
-あくまでベアメタル環境の試用目的です。
+環境は以下の通り。FedoraはRHCOSのHCLにないため正式なサポート対象とはなりません。あくまでベアメタル環境の試用目的です。  
 的確なガイドなしだと体重減ります(個人の感想です)。
 
 ## Install target box
@@ -14,6 +13,9 @@ The environment is as follows. Fedora host is not on the hardware certification 
  - NVMe: 1TB
  - Host OS: Fedora 31
  - kernel-5.5.16-200.fc31.x86_64
+
+ ここで重要なのはとにかく高速なローカルディスクを使うこと。
+ なぜならインストーラーの実行にかかる時間が長いとうまくいかないから。
 
 # インストール Install
 
@@ -54,4 +56,9 @@ https://access.redhat.com/documentation/ja-jp/openshift_container_platform/4.3/h
  - httpd
  - install-config.yaml
 
-7) つづく
+7) ようやくインストーラーを使う
+
+
+## openshift-install
+
+つづく
